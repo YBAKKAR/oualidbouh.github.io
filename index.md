@@ -54,9 +54,10 @@ Comme déjà cité dans la présentation des architecures microservices, l'appli
 Plusieurs sont les entreprises qui ont migré vers des applications en microservices, parmis ces entreptise nous trouvons le géant **NETFLIX** pour les séries et films en ligne, qui est passé de la livraison des DVD qui était trop lente à une architecture microservice en Cloud pour le streaming des vidéos. **Uber** ont eux aussi migrer vers une architecture en microservices à fin de gérer le traffic croissant et d'ajouter de nouvelles fonctionnalités à l'application facilement.
 
 ## Avantages
-Parmis les avantage des microservices nous trouvons l'utilisation des ressource de traitement qui est plus optimisée gràce à la scalabilité verticale (ajout de mémoire RAM, processeur, disque de stockage), ensuite nous trouvons l'ajout des nouvelles fonctionnalités ou la correction des anomalies et bugs qui sont plus faciles cette fois car on connait préalablement le service à mettre à jour ou à corriger. par la suite, nous trouvons le déploiement continu qui est possible avec les application en microserices, ce qui permet au société de booster le time to market.
-## Inconvénients
+Parmis les avantage des microservices nous trouvons l'utilisation des ressources de traitement qui est plus optimisée gràce à la scalabilité verticale (ajout de mémoire RAM, processeur, disque de stockage..etc), ensuite nous trouvons l'ajout des nouvelles fonctionnalités ou la correction des anomalies et bugs qui sont plus faciles dans ce cas car les développeurs connaissent préalablement le service à mettre à jour ou à corriger. par la suite, nous trouvons le déploiement continu qui est possible avec les application en microserices, ce qui permet aux sociétés de booster le time to delivery.
 
+## Inconvénients
+Comme déjà cité, dans une application en microservices, chaque composant applicatif a sa propre base de données (base de données cloisonée), ce qui rend la conception de la base et sa mise à jour au fur et à mesure au cour du projet très complexes, ajoutons à ceci les transactions qui doivent être synchronisées entre les différentes base de données. ensuite, le second inconvénient est le test de l'application qui est très difficile et fastidieux. ensuite, le debogage pour la correction des anomalies est copmpliqué car parfois le développeur ne peux pas connaître la source du problème car cette dernière pourra être une anomalie applicative ou bien une anomalie provenant du réseau (congestion du réseau).
 # L'écosystème des microservices
 
 ## Frameworks de développement
