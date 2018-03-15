@@ -68,6 +68,8 @@ Comme déjà cité, dans une application en microservices, chaque composant appl
 Pour développer des applications en microservices, il existe plusieurs outils applicatifs, entre autres nous trouvons les frameworks ci dessous : 
 **Spring Cloud** : c'est un framwork JAVA créé par la communauté Spring, il permet de créer des applications distribuées très rapidement. il permet la decouverte des services automatiquement, il contient aussi un load balancer qui sera expliqué après.
 ![Spring Cloud](spring-cloud.png)
+
+
 **Vertx** : c'est un framework polyglotte developpé par **RED HAT** qui lui aussi permet de créer des applications distribuées, il supporte JAVA, C#, Ruby et pas mal d'autres languages de programmation. La puissance de ce framework réside dans sa flexibilité et sa robustesse.
 ![Vertx](Vert.x_Logo.svg.png)
 ## Outils de déploiement
