@@ -53,7 +53,7 @@ Comme déjà cité dans la présentation des architecures microservices, l'appli
 Voici un exemple d'architecture en microservices :
 
 
-![architecture monolith](microservices.jpg)
+![architecture microservice](Microservice_Architecture.png)
 ## Quelques sociétés qui ont migré vers les microservices
 Plusieurs sont les entreprises qui ont migré vers des applications en microservices, parmis ces entreptise nous trouvons le géant **NETFLIX** pour les séries et films en ligne, qui est passé de la livraison des DVD qui était trop lente à une architecture microservice en Cloud pour le streaming des vidéos. **Uber** ont eux aussi migrer vers une architecture en microservices à fin de gérer le traffic croissant et d'ajouter de nouvelles fonctionnalités à l'application facilement.
 
