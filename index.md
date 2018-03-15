@@ -65,12 +65,17 @@ Comme déjà cité, dans une application en microservices, chaque composant appl
 # L'écosystème des microservices
 
 ## Frameworks de développement
-Pour développer des applications en microservices, il existe plusieurs outils applicatifs, entre autres nous trouvons les frameworks ci dessous : 
+Pour développer des applications en microservices, il existe plusieurs outils applicatifs, entre autres nous trouvons les frameworks les plus utilisés ci dessous : 
 **Spring Cloud** : c'est un framwork JAVA créé par la communauté Spring, il permet de créer des applications distribuées très rapidement. il permet la decouverte des services automatiquement, il contient aussi un load balancer qui sera expliqué après.
 ![Spring Cloud](spring-cloud.png)
 
 **Vertx** : c'est un framework polyglotte developpé par **RED HAT** qui lui aussi permet de créer des applications distribuées, il supporte JAVA, C#, Ruby et pas mal d'autres languages de programmation. La puissance de ce framework réside dans sa flexibilité et sa robustesse.
 ![Vertx](Vert.x_Logo.svg.png)
+
+**.NET Core** : c'est framework open source de développement créé par **Microsoft** qui se base sur la plateforme .NET, il supporte lui aussi la création des microservices. voilà un [lien](https://docs.microsoft.com/fr-fr/dotnet/standard/microservices-architecture/) pour plus de détails sur ce framework.
+
+![.NET Core](asp-net-core-logo.png)
+
 ## Outils de déploiement
 
 ## Outils de conteneurisation
