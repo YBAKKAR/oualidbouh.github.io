@@ -39,4 +39,6 @@ Dans le monde du génie logiciel, une application qui suit l'architecture monoli
 ## Architecture monolithique
 Voilà à quoi ressemble une application avec l'architecture monolithique : 
 ![Image of Yaktocat](mono_app_architecture.png)
+Géneralement, nous pouvons découpler une application en monolithque en trois couches.
+La première est la couche de présentation, cette couche peut être sous la forme d'une application Web ou d'une application Mobile, elle permet d'intercepter les actions de l'utilisateur tel que la saisi et suppression par exemple. la deuxième est la couche applicative, cette dernière contient la logique métier de l'application, elle interégie directement avec la couche précedente à l'aide du protocole **HTTP** donc elle intercepte les actions utilisateurs et les execute.
 # Les microservices, une révolution !
