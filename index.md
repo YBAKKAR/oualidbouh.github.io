@@ -36,8 +36,8 @@ Finalment pour la troisième, nous verrons l'écosystème des microservices du d
 ## Présentation
 Dans le monde du génie logiciel, une application qui suit l'architecture monolithique à un seul niveau dans laquelle l'interface utilisateur et la logique métier et la couche d'accés aux données sont combinés dans un seul programme avec une seule technologie (un backend avec une seule technologies, ça pourra être du JAVA, PHP) et avec une seule suite de test (unitaire, sécurité, non regression..etc) et avec une seule et unique plateforme de déploiement.
 ## Architecture monolithique
-Voilà à quoi ressemble une application avec l'architecture monolithique : 
-![Image of Yaktocat](mono_app_architecture.png)
+Cette figure montre à quoi ressemble une application avec l'architecture monolithique : 
+![architecture monolith](mono_app_architecture.png)
 Géneralement, nous pouvons découpler une application en monolithque en trois couches.
 La première est la couche de présentation, cette couche peut être sous la forme d'une application Web ou d'une application Mobile, elle permet d'intercepter les actions de l'utilisateur tel que la saisi et suppression par exemple. la deuxième est la couche applicative, cette dernière contient la logique métier de l'application, elle interégie directement avec la couche précedente à l'aide du protocole **HTTP** donc elle intercepte les actions utilisateurs et les execute. La troisième couche est la couche de données qui permet l'accées au serveur de base de données pour recupérer, modifier, supprimer ou mettre à jours les données.
 ## Avantages
@@ -50,6 +50,8 @@ Parmis les inconvénients des applications monolithiques, il existe le temps de 
 L'architecture microservice désigne une application dont les services sont distribués et découplés et focalisés et modulaires chacun sur une fonctionnalité bien précise, ces mini applications doivent être déployées de manière indépendante l'une des autres. Ce style d'architecture s'inspire de l'architecture orienté service **SOA**.
 ## Architecture générale
 Comme déjà cité dans la présentation des architecures microservices, l'application en coupé en micro-applications dites services, chacun de ces services a son propre serveur de base de données. ces services peuvent communiquer entre eux grâce à differents protocoles tel que HTTP pour les appeles REST ou bien le protocole SOAP, sinon le protocole **AMQP**.
+Voici un exemple d'architecture en microservices :
+![architecture monolith](microservices.jpg)
 ## Quelques sociétés qui ont migré vers les microservices
 Plusieurs sont les entreprises qui ont migré vers des applications en microservices, parmis ces entreptise nous trouvons le géant **NETFLIX** pour les séries et films en ligne, qui est passé de la livraison des DVD qui était trop lente à une architecture microservice en Cloud pour le streaming des vidéos. **Uber** ont eux aussi migrer vers une architecture en microservices à fin de gérer le traffic croissant et d'ajouter de nouvelles fonctionnalités à l'application facilement.
 
