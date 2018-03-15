@@ -24,6 +24,7 @@
 # Notes préalables
 Ce document écrit constitue le résultat de ma veille technologique que j'ai faite dans le cadre du cours MSO 4.4.
 Vous pouvez retrouvez le support de présentation au format ppt et pdf.
+
 Retrouvez mon compte [Twitter](https://twitter.com/oualidbouh) sur lequel j’ai partagé des liens en rapport avec le sujet de ma veille.
 # Objectifs
 
