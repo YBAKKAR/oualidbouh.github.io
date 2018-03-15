@@ -15,7 +15,6 @@
   * Frameworks de développement
   * Outils de déploiement
   * Outils de conteneurisation 
-  * Outils de mise en production
   * Outils de monitoring
 * Conclusion
 * Webographie
@@ -78,10 +77,9 @@ Pour développer des applications en microservices, il existe plusieurs outils a
 ![.NET Core](asp-net-core-logo.png)
 
 ## Outils de déploiement
-
+Parmis les outils qui permettent le déploiment des microservices, nous trouvons
 ## Outils de conteneurisation
 
-## Outils de mise en production
 
 ## Outils de monitoring
 
