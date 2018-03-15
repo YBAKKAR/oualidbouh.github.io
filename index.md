@@ -30,7 +30,7 @@ Retrouvez mon compte [Twitter](https://twitter.com/oualidbouh) sur lequel j’ai
 A travers cette veille technologique, j’ai choisi d'expliquer qu'est-ce qu'une architecture microservice, ainsi que les outils utilisés dans l'industrie digitale pour créer des applications très robustes et scalables.
 
 Cette synthèse s’articule en trois grandes parties, Dans la première nous verrons une explication concernant l'architecture d'une application classique dite **monolithique**, avec les avanatges et inconvénients de cette dernière.
-Dans la deuxième, nous plongerons ensemble dans l' architecture microservice, nous verrons dans cette parties une défintion de ce style d'application avec quelques exemples d'applications implémentant cette architecture.
+Dans la deuxième, nous plongerons ensemble dans l' architecture microservice, nous verrons dans cette parties une défintion de ce style d'application avec ces avantages et inconvénients ainsi que quelques exemples d'applications implémentant cette architecture.
 Finalment pour la troisième, nous verrons l'écosystème des microservices du développement jusqu'au déploiement.
 
 # Qu'est ce que monilithique ?
