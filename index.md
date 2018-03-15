@@ -77,7 +77,7 @@ Pour développer des applications en microservices, il existe plusieurs outils a
 ![.NET Core](asp-net-core-logo.png)
 
 ## Outils de déploiement
-Parmis les outils qui permettent le déploiment des microservices, nous trouvons
+Utiliser un outils de déploiement est incontournable, parmis les outils qui sont utilisés dans le monde du génie logiciel nous trouvons Puppet, Jenkins et Ansible. En fait, mis à part pour des solutions extrêmement simples, ne pas utiliser d’outils de gestion de configuration est une perte de temps, qu’il y ait des microservices ou non.
 ## Outils de conteneurisation
 
 
