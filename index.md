@@ -8,7 +8,7 @@
 * Les microservices, une révolution !
   * Présentation
   * Architecture générale
-  * Exemples d'application en microservices
+  * Quelques sociétés qui ont migré vers les microservices
   * Avantages 
   * Inconvénients
 * L'écosystème des microservices
@@ -45,16 +45,16 @@ L'architecture monolithique est la plus répandue dans les projets informatique.
 ## Inconvénients
 Parmis les inconvénients des applications monolithiques, il existe le temps de build qui est généralements très long pour des les grosses applications, ensuite il faut redeployer l'application tout en entier. Au long d'un projet de développement d'une application monolithique, l'ajout de nouvelles fonctionnalités est parfois très complexe dire impossible, lorsqu'un nouveau collaborateur rejoint une équipe de développement, il trouve beaucoup de difficultés à comprendre la logique du code écrit. 
 # Les microservices, une révolution !
+
 ## Présention
-
-
+L'architecture microservice désigne une application dont les services sont distribués et découplés et focalisés et modulaires chacun sur une fonctionnalité bien précise, ces mini applications doivent être déployées de manière indépendante l'une des autres. Ce style d'architecture s'inspire de l'architecture orienté service **SOA**.
 ## Architecture générale
-
-## Exemples d'application en microservices
+Comme déjà cité dans la présentation des architecures microservices, l'application en coupé en micro-applications dites services, chacun de ces services a son propre serveur de base de données. ces services peuvent communiquer entre eux grâce à differents protocoles tel que HTTP pour les appeles REST ou bien le protocole SOAP, sinon le protocole **AMQP**.
+## Quelques sociétés qui ont migré vers les microservices
+Plusieurs sont les entreprises qui ont migré vers des applications en microservices, parmis ces entreptise nous trouvons le géant **NETFLIX** pour les séries et films en ligne, qui est passé de la livraison des DVD qui était trop lente à une architecture microservice en Cloud pour le streaming des vidéos. **Uber** ont eux aussi migrer vers une architecture en microservices à fin de gérer le traffic croissant et d'ajouter de nouvelles fonctionnalités à l'application facilement.
 
 ## Avantages
-
-
+Parmis les avantage des microservices nous trouvons l'utilisation des ressource de traitement qui est plus optimisée gràce à la scalabilité verticale (ajout de mémoire RAM, processeur, disque de stockage), ensuite nous trouvons l'ajout des nouvelles fonctionnalités ou la correction des anomalies et bugs qui sont plus faciles cette fois car on connait préalablement le service à mettre à jour ou à corriger. par la suite, nous trouvons le déploiement continu qui est possible avec les application en microserices, ce qui permet au société de booster le time to market.
 ## Inconvénients
 
 # L'écosystème des microservices
