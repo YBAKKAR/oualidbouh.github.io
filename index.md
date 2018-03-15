@@ -6,3 +6,5 @@
 * L'écosystème des microservices
 * Conclusion
 * Webographie
+
+#Notes préalables
