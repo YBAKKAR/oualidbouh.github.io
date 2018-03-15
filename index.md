@@ -35,6 +35,6 @@ Finalment pour la troisième, nous verrons l'écosystème des microservices du d
 
 # Qu'est ce que monilithique ?
 ## Présentation
-Dans le monde du génie logiciel, une application qui suit l'architecture monolithique à un seul niveau dans laquelle l'interface utilisateur et la logique métier et la couche d'accés aux données sont combinés dans un seul programme avec une seul technologie (coté serveur).
+Dans le monde du génie logiciel, une application qui suit l'architecture monolithique à un seul niveau dans laquelle l'interface utilisateur et la logique métier et la couche d'accés aux données sont combinés dans un seul programme avec une seule technologie (un backend avec une seule technologies, ça pourra être du JAVA, PHP) et avec une seule suite de test (unitaire, sécurité, non regression..etc) et avec une seule et unique plateforme de déploiement.
 
 # Les microservices, une révolution !
