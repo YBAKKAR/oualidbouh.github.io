@@ -3,7 +3,7 @@
 * Qu'est ce que monilithique ?
   * Présentation
   * Architecture générale
-  * Example d'application monolithique
+  * Exemples d'application monolithique
   * Avanatges
   * Inconvénient
 * Les microservices, une révolution !
